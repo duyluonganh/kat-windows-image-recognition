@@ -1,0 +1,10 @@
+
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+
+settings
+Reports
+.project
