@@ -1,5 +1,7 @@
 # kat-windows-image-recognition
-Demonstrate how to use Image Recognition in Katalon Windows Test on Microsoft Calculators app
+Demonstrate how to use Image Recognition in Katalon Windows Test on Microsoft Calculators app.
+
+Please view the video in Demo/capture-image-elements-guide.mp4 to understand the way to capture image elements.
 
 ### Custom Keywords
 
