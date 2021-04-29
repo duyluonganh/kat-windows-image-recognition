@@ -34,4 +34,15 @@ class WindowsImageKeywords {
 		DesktopScreenUtil screen = new DesktopScreenUtil()
 		screen.clickImageInImage(parentImagePath, childImagePath)
 	}
+
+	/**
+	 * Finds the desktop region that matches with the image then type on the center of the found region
+	 * @param imagePath Absolute path to image
+	 * @param text text to set
+	 */
+	@Keyword
+	def static typeOnImage(String imagePath, String text) {
+		DesktopScreenUtil screen = new DesktopScreenUtil()
+		screen.typeOnImage(imagePath, text)
+	}
 }
